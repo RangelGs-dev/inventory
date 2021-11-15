@@ -1,0 +1,122 @@
+* {
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background: #0a155a;
+}
+
+h1 {
+    color: #ffff;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+header {
+    background: #47da8d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+.container-listAdd {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-listAdd {
+    margin: 0px;
+    border: none;
+    width: 100%;             
+    font-size: 16px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+}
+
+.addBtn {
+    display: block;
+    padding: 10px;
+    background: #47da8d;
+    font-size: 18px;
+    border-radius: 0px 5px 5px 0px;
+    color: #ffff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background-color: #5eb694;
+}
+
+.container-list ul  {
+    display: grid;
+    grid-template-columns: 1fr 45px;
+}
+
+.container-list ul li {
+    display: flex;
+    text-align: center;
+    background: #ffff;
+    border-radius: 5px 0px 0px 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.remove {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    background: #47da8d;
+    content: url(./img/3643750_draw_edit_pencil_stationary_write_icon.svg);
+    height: 48px;
+    width: 46px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.list-items span img:hover {
+    background: #5eb694;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Inventory</title>
+</head>
+<body>
+    <header>
+        <span class="logo">
+            <img src="https://img.icons8.com/fluency/48/000000/delivery-settings.png"/>
+            <h1>Inventory</h1>
+        </span>
+        <nav>
+            <ul class="menu">
+                <li><a href="/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div class="container-listAdd">
+            <input type="text" class="input-listAdd" placeholder="Description...">
+            <span onclick="newItem()" class="addBtn">Ok</span>
+        </div>
+
+        <div class="container-list">
+            <ul class="list-items"></ul>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
