@@ -1,7 +1,3 @@
-const products = [
-    'Heineken longneck puro malte 330ml',
-    'Skol Pilsen lata 269ml'
-]
 
 /* Add item */
 function newItem() {
@@ -25,6 +21,9 @@ function newItem() {
     }
     
     document.querySelector('.input-listAdd').value = ''
+
+    const removeProduct = document.getElementsByClassName('removejs')
+    return removeProductArray = Array.from(removeProduct)
 }
 
 const addBtn = document.querySelector('.addBtn')
@@ -58,6 +57,4 @@ window.addEventListener('keydown', handleKey)
 
 
 /* Remove item */
-
-const removeProduct = document.getElementsByClassName('removejs')
-const removeProductArray = Array.from(removeProduct)
+let removeProductArray;
