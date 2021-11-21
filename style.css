@@ -94,29 +94,42 @@ header {
 
 .container-list ul li {
     display: flex;
-    text-align: center;
-    background: #ffff;
-    border-radius: 5px 0px 0px 5px;
     margin-bottom: 10px;
     padding: 10px;
+    align-items: center;
+    background: #ffff;
+    border-radius: 5px 0px 0px 5px;
     width: 100%;
     font-size: 18px;
 }
 
 .remove {
     display: flex;
+    background: none;
+    text-decoration: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    border: none;
+}
+
+/* .remove svg {
+    
+} */
+
+.removeSpan {
+    display: flex;
     align-items: center;
-    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
     background: #47da8d;
-    content: url(./img/3643750_draw_edit_pencil_stationary_write_icon.svg);
-    height: 48px;
-    width: 46px;
+    font-size: 18px;
+    color: #ffff;
     transition: all 0.5s;
     cursor: pointer;
     border-radius: 0px 5px 5px 0px;
 }
 
-.list-items span img:hover {
-    background: #5eb694;
+.removeSpan:hover {
+    background-color: #5eb694;
 }
-
